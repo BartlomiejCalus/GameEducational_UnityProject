@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MathGame : MonoBehaviour
 {
@@ -39,7 +40,7 @@ public class MathGame : MonoBehaviour
 
     public GameObject heartCont;
     public GameObject[] hearts;
-    private int cnt = 3;
+    private int cnt = 2;
 
     void Start()
     {
@@ -52,7 +53,7 @@ public class MathGame : MonoBehaviour
     }
 
      void Update()
-    {      
+    {
         currTime -= Time.deltaTime;
         countdown.text = currTime.ToString("0.0");
         if (currTime <= 0f)
@@ -70,15 +71,7 @@ public class MathGame : MonoBehaviour
         }
         if (cnt == -1)
         {
-            CD.SetActive(false);
-
-            pytanie.text = "Brak ¿yæ";
-            b1.enabled = false;
-            b2.enabled = false;
-            b3.enabled = false;
-            b4.enabled = false;
-
-            time = false;
+            SceneManager.LoadScene(0);
         }
     }
 
@@ -285,7 +278,7 @@ public class MathGame : MonoBehaviour
     }
     public void takeHeart()
     {
-        if(cnt<3)
+        if(cnt>0)
         Destroy(hearts[cnt]);
         
         cnt--;

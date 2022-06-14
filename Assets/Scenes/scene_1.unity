@@ -1036,6 +1036,8 @@ MonoBehaviour:
     name: ...
     sentences:
     - "\u017Beby u\u017Cywa\u0107 telefonu musiz wej\u015B\u0107 w tryb administartora. "
+    - "Pami\u0119taj \u017Ce za ka\u017Cdym razem jak stracisz \u017Cycia b\u0119dziesz
+      musia\u0142 go odblokowywa\u0107."
     - "Has\u0142o sk\u0142ada si\u0119 z trzech liczb...znalaz\u0142em je w systyemie
       w zapisie dw\xF3jkowym"
 --- !u!114 &517277485

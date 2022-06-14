@@ -9,13 +9,18 @@ public class staticVal
     public static int dif;
     public static int [] theBest = {0,0,0};
     public static FileInfo f = new FileInfo("save.bin");
+    public static int angBest;
     public static void save()
     {
         using (BinaryWriter bw = new BinaryWriter(f.OpenWrite()))
         {
             for(int i = 0; i < theBest.Length; i++)
-            bw.Write(theBest[i]);
+                bw.Write(theBest[i]);
+
+            bw.Write(angBest);
+            bw.Close();
         }
+       
 
     }
 
@@ -27,6 +32,9 @@ public class staticVal
             {
                 for (int i = 0; i < theBest.Length; i++)
                     theBest[i] = br.ReadInt32();
+
+                angBest = br.ReadInt32();
+                br.Close();
             }
         }
         

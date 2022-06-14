@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 public class main_menu : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Text score;
+
     void Start()
     {
-        
+        score.text = $"HIGH SCORE: {staticVal.angBest}";
     }
 
     // Update is called once per frame
@@ -21,5 +22,10 @@ public class main_menu : MonoBehaviour
     {
  
         SceneManager.LoadScene(6);
+    }
+    public void goToAdd()
+    {
+
+        SceneManager.LoadScene(7);
     }
 }
