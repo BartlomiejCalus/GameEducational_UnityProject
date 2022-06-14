@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/TTGame.unity
     guid: 97baf4ce0cc312340963f5c33f0d0bd1
   - enabled: 1
-    path: Assets/Scenes/TTAddWord.unity
-    guid: f0ea47e643b14254899ff697f4063eb2
+    path: Assets/Scenes/GeoAsk.unity
+    guid: c44146b1be5de5449a76285420946062
   m_configObjects: {}
