@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GeoAsk.unity
     guid: c44146b1be5de5449a76285420946062
+  - enabled: 1
+    path: Assets/Scenes/GAGame.unity
+    guid: 0f7dc11c41f9f884481544cfca11f236
+  - enabled: 1
+    path: Assets/Scenes/DLC_scen.unity
+    guid: f6bb235f5d220de47b54a89c3db4d842
   m_configObjects: {}

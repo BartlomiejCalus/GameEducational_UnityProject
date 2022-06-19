@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class main_menu : MonoBehaviour
+public class main_menuGeo : MonoBehaviour
 {
-    public Text score;
-
+    public Text wynik;
+    // Start is called before the first frame update
     void Start()
     {
-        score.text = $"HIGH SCORE: {staticVal.angBest}";
+        wynik.text = $"{staticVal.ileGeoAsk}/{staticVal.Quests.Count}";
     }
 
     // Update is called once per frame
@@ -18,10 +18,9 @@ public class main_menu : MonoBehaviour
     {
         
     }
-    public void goToNext()
+    public void goToAdd()
     {
- 
-        SceneManager.LoadScene(6);
+
+        SceneManager.LoadScene(8);
     }
-    
 }

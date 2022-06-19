@@ -34,4 +34,12 @@ public class sceneMenager : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
+    public void goGeoAsk()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void goDLC()
+    {
+        SceneManager.LoadScene(9);
+    }
 }
