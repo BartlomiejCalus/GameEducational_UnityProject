@@ -12,8 +12,8 @@ public class gameScript : MonoBehaviour
     public Text[] words;
     public InputField[] ipF;
 
-    private List<string> ang = new List<string> { "cat", "dog" };
-    private List<string> pl = new List<string> { "kot", "pies" };
+    private List<string> ang = new List<string> { "cat", "dog", "dirt", "mud", "coffee", "headphones", "lights", "tree", "shadow", "pilot", "hover", "window", "livestock" };
+    private List<string> pl = new List<string> { "kot", "pies", "ziemia", "b³oto", "kawa", "s³uchawki", "swiat³a", "drzewo", "cieñ", "pilot", "unosiæ siê", "okno", "byd³o" };
 
     private int what_word;
     private bool next = false;

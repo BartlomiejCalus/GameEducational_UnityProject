@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DLC_scen.unity
+- path: Assets/Scenes/GeoAsk.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
