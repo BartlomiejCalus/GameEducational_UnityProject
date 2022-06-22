@@ -102,21 +102,21 @@ public class MathGame : MonoBehaviour
         {
             case 1:
                 currTime = 60f;
-                CD.SetActive(true); //ustawienie stopera na 15s i pokazanie go
+                CD.SetActive(true); //ustawienie stopera na 60s i pokazanie go
                 Debug.Log("easy");
                 Qest1();
                 break;
 
             case 2:
                 currTime = 60f;
-                CD.SetActive(true); //ustawienie stopera na 20s i pokazanie go
+                CD.SetActive(true); //ustawienie stopera na 60s i pokazanie go
                 Debug.Log("medium");
                 Qest2();
                 break;
 
             case 3:
                 currTime = 60f;
-                CD.SetActive(true); //ustawienie stopera na 20s i pokazanie go
+                CD.SetActive(true); //ustawienie stopera na 60s i pokazanie go
                 Debug.Log("hard");
                 Qest3();
                 break;

@@ -21,7 +21,7 @@ public class taskMen : MonoBehaviour
     public void CheckTask()
     {
         
-        animator.SetBool("IsGood", false);
+        //animator.SetBool("IsGood", false);
         
         for (int i = 0; i < 3; ++i)
         {
@@ -34,7 +34,7 @@ public class taskMen : MonoBehaviour
             }
         }
         
-        animator.SetBool("IsOpen", false);
+        //animator.SetBool("IsOpen", false);
         SceneManager.LoadScene(2);
     }
 
